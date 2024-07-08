@@ -1,0 +1,17 @@
+[Target]
+TargetURL: URL WITH LIST TO BATH LOCATIONS
+Deeplink: DEEPLINK TO COURSES
+TargetName: NAME OF SWIM LOCATION
+
+[EMails]
+Addresses: [LIST OF EMAILS/RECEIVERS]
+SenderEmail: SENDER_EMAIL
+EMailPassword: EMAIL_PASSWORD
+EMailServer: EMAIL_HOST
+EMailPort: EMAIL_PORT
+
+[Database]
+DatabaseFile: PATH/TO/DATABASE/FILE
+
+[CourseInformation]
+CourseName: NAME OF COURSE
