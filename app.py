@@ -25,7 +25,7 @@ def main():
         email_server = configurations.get('EMails').get('emailserver')
         email_port = eval(configurations.get('EMails').get('emailport'))
     else:
-        raise ValueError('EMails section is missin in config file')
+        raise ValueError('EMails section is missing in config file')
 
     if configurations.get('CourseInformation'):
         course_name = configurations.get('CourseInformation').get('coursename')
